@@ -1,0 +1,27 @@
+# slack-hubot
+
+A Slack bot application.
+
+## Usage
+
+```bash
+git clone git@github.com:tat3/slack-hubot.git
+```
+
+Firstly you have to create a Slack App. 
+You can read "Getting a Slack Token" in the [official documentation](https://slackapi.github.io/hubot-slack/).
+
+After that, you will get a "Bot User OAuth Access Token" starting with "xoxb-".
+Add the token to .env file.
+
+```bash
+echo HUBOT_SLACK_TOKEN=<your token> > .env
+```
+
+Finally launch application with Docker Compose.
+
+```bash
+docker-compose build
+docker-compose up
+```
+
