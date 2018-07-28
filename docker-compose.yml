@@ -1,0 +1,7 @@
+version: "3"
+services:
+  hubot:
+    image: hubot
+    build: .
+    env_file:
+      - .env
