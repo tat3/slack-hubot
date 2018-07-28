@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "sourceMap": true,
+    "types" : ["node"],
+    "rootDir": "ts",
+    "outDir": "scripts"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
